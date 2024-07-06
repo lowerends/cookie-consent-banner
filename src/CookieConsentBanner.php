@@ -1,6 +1,6 @@
 <?php
 /**
- * Cookie Consent Banner plugin for Craft CMS 3.x
+ * Cookie Consent Banner plugin for Craft CMS 5.x
  *
  * Add a configurable cookie consent banner to the website.
  *
@@ -127,8 +127,8 @@ class CookieConsentBanner extends Plugin
             ),
             __METHOD__
         );
-        
-        
+
+
         Event::on(
           View::class,
           View::EVENT_BEFORE_RENDER_TEMPLATE,
@@ -143,9 +143,9 @@ class CookieConsentBanner extends Plugin
               ];
             }
         });
-        
+
 		$settings = $this->getSettings();
-		
+
         if (!$settings->auto_inject || !$this->cookieConsentBannerService->validateRequestType() || $this->cookieConsentBannerService->validateCookieConsentSet()) {
 	      return;
 	    }
@@ -194,7 +194,7 @@ class CookieConsentBanner extends Plugin
 	    // Get and pre-validate the settings
         $settings = $this->getSettings();
         $settings->validate();
-        
+
         return Craft::$app->view->renderTemplate(
             'cookie-consent-banner/settings',
             [
