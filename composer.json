@@ -2,7 +2,7 @@
     "name": "lowerends/cookie-consent-banner",
     "description": "Add a configurable cookie consent banner to the website.",
     "type": "craft-plugin",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "keywords": [
         "craft",
         "cms",
@@ -30,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-          "lowerends\\cookieconsentbanner\\": "src/"
+          "adigital\\cookieconsentbanner\\": "src/"
         }
     },
     "extra": {
@@ -39,7 +39,7 @@
         "hasCpSettings": true,
         "hasCpSection": false,
         "changelogUrl": "https://github.com/lowerends/cookie-consent-banner/blob/master/CHANGELOG.md",
-        "class": "lowerends\\cookieconsentbanner\\CookieConsentBanner"
+        "class": "adigital\\cookieconsentbanner\\CookieConsentBanner"
     },
     "config": {
         "platform": {
