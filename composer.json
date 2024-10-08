@@ -1,5 +1,5 @@
 {
-    "name": "adigital/cookie-consent-banner",
+    "name": "lowerends/cookie-consent-banner",
     "description": "Add a configurable cookie consent banner to the website.",
     "type": "craft-plugin",
     "version": "3.0.0",
@@ -11,8 +11,8 @@
         "cookie consent banner"
     ],
     "support": {
-        "docs": "https://github.com/a-digital/cookie-consent-banner/blob/master/README.md",
-        "issues": "https://github.com/a-digital/cookie-consent-banner/issues"
+        "docs": "https://github.com/lowerends/cookie-consent-banner/blob/master/README.md",
+        "issues": "https://github.com/lowerends/cookie-consent-banner/issues"
     },
     "license": "MIT",
     "authors": [
@@ -30,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-          "adigital\\cookieconsentbanner\\": "src/"
+          "lowerends\\cookieconsentbanner\\": "src/"
         }
     },
     "extra": {
@@ -38,8 +38,8 @@
         "handle": "cookie-consent-banner",
         "hasCpSettings": true,
         "hasCpSection": false,
-        "changelogUrl": "https://github.com/a-digital/cookie-consent-banner/blob/master/CHANGELOG.md",
-        "class": "adigital\\cookieconsentbanner\\CookieConsentBanner"
+        "changelogUrl": "https://github.com/lowerends/cookie-consent-banner/blob/master/CHANGELOG.md",
+        "class": "lowerends\\cookieconsentbanner\\CookieConsentBanner"
     },
     "config": {
         "platform": {
